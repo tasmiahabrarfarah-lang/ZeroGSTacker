@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroGStacker.Runtime", "ZeroGStacker.Runtime.csproj", "{B766153A-E9FA-2E23-08E8-902A31454D4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroGStacker.Tests", "ZeroGStacker.Tests.csproj", "{5FBEDC91-0E85-B22D-5328-01A1DC5539CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroGStacker.Editor", "ZeroGStacker.Editor.csproj", "{C2DC175F-3462-60A6-D11A-6195936D5547}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B766153A-E9FA-2E23-08E8-902A31454D4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B766153A-E9FA-2E23-08E8-902A31454D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B766153A-E9FA-2E23-08E8-902A31454D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B766153A-E9FA-2E23-08E8-902A31454D4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FBEDC91-0E85-B22D-5328-01A1DC5539CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FBEDC91-0E85-B22D-5328-01A1DC5539CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FBEDC91-0E85-B22D-5328-01A1DC5539CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FBEDC91-0E85-B22D-5328-01A1DC5539CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2DC175F-3462-60A6-D11A-6195936D5547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2DC175F-3462-60A6-D11A-6195936D5547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2DC175F-3462-60A6-D11A-6195936D5547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2DC175F-3462-60A6-D11A-6195936D5547}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

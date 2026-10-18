@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="5" result="Passed" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-28 09:57:09Z" end-time="2026-09-28 09:57:09Z" duration="0.0973393">
+  <test-suite type="TestSuite" id="1000" name="Zero-G Stacker" fullname="Zero-G Stacker" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-09-28 09:57:09Z" end-time="2026-09-28 09:57:09Z" duration="0.097339" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1011" name="ZeroGStacker.Tests.dll" fullname="C:/Users/Asus/Downloads/exclusion/game/Library/ScriptAssemblies/ZeroGStacker.Tests.dll" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-09-28 09:57:09Z" end-time="2026-09-28 09:57:09Z" duration="0.081256" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="5532" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1012" name="ZeroGStacker" fullname="ZeroGStacker" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-09-28 09:57:09Z" end-time="2026-09-28 09:57:09Z" duration="0.080223" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1013" name="Tests" fullname="ZeroGStacker.Tests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-09-28 09:57:09Z" end-time="2026-09-28 09:57:09Z" duration="0.079419" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1005" name="ZeroGStackerTests" fullname="ZeroGStacker.Tests.ZeroGStackerTests" classname="ZeroGStacker.Tests.ZeroGStackerTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-09-28 09:57:09Z" end-time="2026-09-28 09:57:09Z" duration="0.076922" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1010" name="DailyChallengeService_DeterministicSeed_IsIdenticalForSameDate" fullname="ZeroGStacker.Tests.ZeroGStackerTests.DailyChallengeService_DeterministicSeed_IsIdenticalForSameDate" methodname="DailyChallengeService_DeterministicSeed_IsIdenticalForSameDate" classname="ZeroGStacker.Tests.ZeroGStackerTests" runstate="Runnable" seed="2004162986" result="Passed" start-time="2026-09-28 09:57:09Z" end-time="2026-09-28 09:57:09Z" duration="0.037595" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1009" name="EndlessDifficulty_SpeedScalingBands_MatchSpec" fullname="ZeroGStacker.Tests.ZeroGStackerTests.EndlessDifficulty_SpeedScalingBands_MatchSpec" methodname="EndlessDifficulty_SpeedScalingBands_MatchSpec" classname="ZeroGStacker.Tests.ZeroGStackerTests" runstate="Runnable" seed="836067148" result="Passed" start-time="2026-09-28 09:57:09Z" end-time="2026-09-28 09:57:09Z" duration="0.002933" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1006" name="StabilityMath_ComputeBlockTorque_CalculatesExpectedTorque" fullname="ZeroGStacker.Tests.ZeroGStackerTests.StabilityMath_ComputeBlockTorque_CalculatesExpectedTorque" methodname="StabilityMath_ComputeBlockTorque_CalculatesExpectedTorque" classname="ZeroGStacker.Tests.ZeroGStackerTests" runstate="Runnable" seed="605803076" result="Passed" start-time="2026-09-28 09:57:09Z" end-time="2026-09-28 09:57:09Z" duration="0.000248" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1008" name="StabilityMath_ComputeCenterOfMass_CalculatesWeightedAverage" fullname="ZeroGStacker.Tests.ZeroGStackerTests.StabilityMath_ComputeCenterOfMass_CalculatesWeightedAverage" methodname="StabilityMath_ComputeCenterOfMass_CalculatesWeightedAverage" classname="ZeroGStacker.Tests.ZeroGStackerTests" runstate="Runnable" seed="1611421700" result="Passed" start-time="2026-09-28 09:57:09Z" end-time="2026-09-28 09:57:09Z" duration="0.001565" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1007" name="StabilityMath_ComputeTotalLean_NormalizesByHeight" fullname="ZeroGStacker.Tests.ZeroGStackerTests.StabilityMath_ComputeTotalLean_NormalizesByHeight" methodname="StabilityMath_ComputeTotalLean_NormalizesByHeight" classname="ZeroGStacker.Tests.ZeroGStackerTests" runstate="Runnable" seed="2035735056" result="Passed" start-time="2026-09-28 09:57:09Z" end-time="2026-09-28 09:57:09Z" duration="0.001797" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:/Users/Asus/AppData/LocalLow/Antigravity/Zero-G Stacker\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
